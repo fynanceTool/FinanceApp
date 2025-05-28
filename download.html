@@ -51,9 +51,16 @@
       margin-top: 0.5em;
       cursor: pointer;
     }
+    summary::-webkit-details-marker {
+      display: none;
+    }
     summary {
+      list-style: none;
       font-weight: bold;
       color: #fff;
+      padding: 0.5em;
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 5px;
     }
     footer {
       text-align: center;
@@ -76,10 +83,12 @@
     <div class="platform">
       <h3>MacOS</h3>
       <p>x86</p>
-      <p class="highlight">ARM64 *</p>
-      <a href="https://prosperabytaji.s3.us-east-2.amazonaws.com/Prospera-1.0.0.dmg">
-        download
-      </a>
+      <details>
+        <summary><p class="highlight">ARM64 *</p></summary>
+        <a href="https://prosperabytaji.s3.us-east-2.amazonaws.com/Prospera-1.0.0.dmg">
+          download
+        </a>
+      </details>
       <details>
         <summary>Why ARM64?</summary>
         <p>We recommend this version if you're on a new Mac device (2020 or newer) with Apple Silicon (M1, M2, etc.).</p>
