@@ -8,7 +8,7 @@ Finance App is a desktop application designed to empower startups by helping the
 ---
 
 ### **Visit Our Official Website for Full Details and Downloads:**
-[**Finance App Official Website**](https://fynanceTool/FinanceApp/index.html)
+[**Finance App Official Website**](https://fynanceTool.github.io/FinanceApp/index.html)
 
 On our website, you will find:
 * A comprehensive overview of our mission and how Finance App can benefit your startup.
